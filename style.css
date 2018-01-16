@@ -1,0 +1,261 @@
+body {
+	margin: 0;
+	font-family: arial;
+	background-color: black;
+}
+
+audio {
+	background-color: gray;
+	border-color: whitesmoke;
+	border: dotted;
+}
+
+audio:hover, audio:focus, audio:active {
+	background-color: aqua;
+	border: dashed;
+}
+
+ul.nav {
+	text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: black
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: black;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+    color: white;
+}
+
+hr.index {
+	display: block;
+	height: 0;
+	border: 0;
+	margin: 0;
+	padding: 1px;
+	background-color: black;
+	width: 60%;
+	left: 20%;
+	position: relative;
+	border: none;
+}
+
+hr.profile {
+	display: block;
+	height: 0;
+	border: 0;
+	margin: 0;
+	padding: 1px;
+	background-color: maroon;
+	width: 25%;
+	left: 37.5%;
+	position: relative;
+	border: none;
+}
+
+hr.artikel {
+	display: block;
+	height: 0;
+	border: 0;
+	margin: 0;
+	padding: 1px;
+	background-color: maroon;
+	width: 20%;
+	left: 40%;
+	position: relative;
+	border: none;
+}
+
+hr.about {
+	display: block;
+	height: 0;
+	border: 0;
+	margin: 0;
+	padding: 1px;
+	background-color: maroon;
+	width: 25%;
+	left: 37.5%;
+	position: relative;
+	border: none;
+}
+
+h1 {
+	margin-bottom: 15px;
+	font-size: 45px;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 3px;
+	color: maroon;
+}
+
+img {
+	border: groove;
+	margin: 10px;
+	height: 300px;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 3px;
+	color: maroon;
+}
+
+table.profile {
+	margin-top: 10px;
+	height: 150px;
+	font-size: 20px;
+	font-weight: lighter;
+	color: maroon;
+}
+
+table.artikel {
+	margin-top: 30px;
+	padding: 10px;
+	width: 700px;
+	background-color: white;
+	opacity: 0.75;
+	font-size: 17px;
+	font-weight: lighter;
+	text-align: justify;
+	color: gray;
+}
+
+table.artikel:hover {
+	margin-top: 30px;
+	padding: 10px;
+	width: 700px;
+	background-color: white;
+	opacity: 1;
+	font-size: 17px;
+	font-weight: lighter;
+	color: gray;
+}
+
+table.about {
+	margin-top: 30px;
+	padding: 10px;
+	height: 250px;
+	font-size: 20px;
+	color: gray;
+}
+
+/* -----  Font Awesome  ----- */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fa-instagram:hover{
+  content: "\f16d";
+  color: red;
+}
+
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.fa-facebook:hover {
+  content: "\f09a";
+  color: red;
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}
+
+.fa-twitter:hover {
+  content: "\f099";
+  color: red;
+}
+
+/* =====  Form ===== */
+
+input[type=text], select, textarea {
+	font-family: arial;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+	color: gray;
+	font-weight: bold;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: gray;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: arial;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: whitesmoke;
+    color: gray;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.container {
+	margin-left: 300px;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+
+.col-1 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+.col-2 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<ul class="nav">
+    <li><a href="index.html">Home</a></li>
+	<hr>
+    <li><a href="profile.html">Profile</a></li>
+	<hr>
+    <li><a href="pp.html">Profile Perusahaan</a></li>
+	<hr>
+    <li><a href="artikel.html">Bill Gates</a></li>
+	<hr>
+	<li><a href="perusahaan.html">Microsoft</a></li>
+	<hr>
+	<li><a href="penghargaan.html">Penghargaan Bill Gates</a></li>
+	<hr>
+    <li><a class="active" href="form.html">Form</a></li>
+	<hr>
+    <li class="right"><a href="about.html">About</a></li>
+	<hr>
+</ul>
+<div style="padding-top: 5px; text-align: center;">
+    <h1>Form</h1><hr class="form"><center>
+</div>
+<form action="#">
+    <div class="container">
+        <div class="col-1">
+            <label>Nama Lengkap</label>
+        </div>
+        <div class="col-2">
+            <input type="text" id="nama" name="nama" placeholder="Nama Anda">
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-1">
+            <label>Jenis Kelamin</label>
+        </div>
+        <div class="col-2">
+            <select id="jk" name="jk">
+                <option value="laki-laki">Laki-laki</option>
+                <option value="perempuan">Perempuan</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-1">
+            <label>Alamat</label>
+        </div>
+        <div class="col-2">
+            <textarea id="alamat" name="alamat" placeholder="Alamat Anda" style="height:150px"></textarea>
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</form>
+</body>
+</html>
